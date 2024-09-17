@@ -1,0 +1,163 @@
+/* Custom Styles */
+
+
+.home {
+    color: white;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.image img {
+    size: 50px;
+}
+
+.home-text span {
+    padding: 5px 25px;
+    background: linear-gradient(130.08deg, #6ca5d3 0%, #3b5c6d 100%);
+    border: 1px solid #3b3b3b;
+    font-size: 15px;
+    border-radius: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.home-text h1 {
+    font-size: xxx-large;
+    margin: 23px 0;
+    color: rgb(129, 230, 15);
+}
+
+.home-text p {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 14px 25px;
+    background-color: rgb(129, 230, 15);
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+.btn:hover {
+    background: #2196f3;
+color: #fff;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+.two {
+    background-color: rgb(0, 68, 255);
+    color: white;
+    margin-left: 20px;
+}
+
+.two:hover {
+    background-color: rgb(34, 162, 236);
+   
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    border: 2px solid black;
+}
+
+
+/*  *****************About me******************* */
+
+.about-mf .box-shadow-full {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+    margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+    margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+    /* background-color: #cde1f8; */
+    margin: .5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+    height: .7rem;
+    background-color: #ffbd39;
+}
+
+ul.about-info {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+    li {
+        list-style: none;
+        margin-bottom: 10px;
+
+        span {
+            width: calc(100% - 130px);
+
+            &:first-child {
+                font-weight: 600;
+                color: white;
+                width: 130px;
+            }
+        }
+    }
+}
+
+
+/* ********************* project-hover ***************** */
+.project-hover:hover {
+    background: #2196f2;
+    color: #fff;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+/* ************************** servies section ****************** */
+.section-services {
+    background-color: black;
+}
+
+.text {
+    padding-top: 10%;
+    text-align: center;
+    color: #ffe500;
+}
+
+.main {
+    margin-top: 80px;
+    justify-content: space-evenly;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+
+
+.servies {
+
+    border: 2px solid white;
+    border-radius: 18px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.servies:hover {
+    background: #2196f2;
+    color: #fff;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+#computer {
+    height: 59px;
+    margin-top: 10px;
+}
